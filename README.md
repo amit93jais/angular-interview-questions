@@ -159,7 +159,7 @@
 |151| [What are the ways to trigger change detection in Angular?](#what-are-the-ways-to-trigger-change-detection-in-angular)|
 |152| [What are the differences of various versions of Angular?](#what-are-the-differences-of-various-versions-of-angular)|
 |153| [What are the different building blocks in Angular?](#what-are-the-different-building-blocks-in-angular)|
-|154| [](#)|
+|154| [Why typeScript in Angular?](#why-typescript-in-angular)|
 |155| [](#)|
 |156| [](#)|
 |157| [](#)|
@@ -2007,7 +2007,22 @@ Services
 Dependency Injection
 
 Routing
-154. ### ?
+154. ### why-typescript-in-angular
+Typescript is a superset of Javascript. Earlier, Javascript was the only client-side language supported by all browsers. But, the problem with Javascript is, it is not a pure Object Oriented Programming Language. The code written in JS without following patterns like Prototype Pattern becomes messy and finally leading to difficulties in maintainability and reusability. Instead of learning concepts (like patterns) to maintain code, programmers prefer to maintain the code in an OOP approach and is made available with a programming language like Typescript was thus developed by Microsoft in a way that it can work as Javascript and also offer what javascript cannot ie; 
+
+pure OOPS as Typescript offers concepts like Generics, Interfaces and Types (a Static Typed Language) which makes it is easier to catch incorrect data types passing to variables.
+
+TS provides flexibility to programmers experienced in java, .net as it offers encapsulation through classes and interfaces.
+
+JS version ES5 offers features like Constructor Function, Dynamic Types, Prototypes. The next version of Javascript ie ES6 introduced a new feature like Class keyword but not supported by many browsers.
+
+TS offers Arrow Functions (=>) which is an ES6 feature not supported by many browsers directly but when used in TS, gets compiled into JS ES5 and runs in any browser.
+
+TS is not the only alternative to JS, we have CoffeeScript, Dart(Google).
+
+Finally, it is like, TS makes life easier when compared to JS.
+
+
 155. ### ?
 156. ### ?
 157. ### ?
